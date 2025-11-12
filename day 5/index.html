@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML form with table</title>
+    </head>
+
+    <body>
+
+        <center>
+        <h1>Job aplication form</h1>
+
+        <form method="get">
+
+            <table border="1" cellspacing="10" cellpadding="5">
+
+                <tr>
+
+                    <th>Enter your full name: </th>
+                    <td><input type="text" placeholder="Enter your name"></td>
+
+                </tr>
+                 <tr>
+
+                    <th>Email addrest : </th>
+                    <td><input type="email" placeholder="Enter your Email"></td>
+
+                </tr>
+                <tr>
+
+                    <th>Phone number: </th>
+                    <td><input type="tel" placeholder="Enter your Phone Number"></td>
+
+                </tr>
+                <tr>
+
+                    <th>Gender:</th>
+                    <td><input type="radio" name="gender">male<input type="radio" name="gender">Female</td>
+
+                </tr>
+                <tr>
+
+                    <th>Job role:</th>
+                    <td>
+                        <select placeholder="select job">
+                            <option>HR</option>
+                            <option>Manager</option>
+                            <option>Employer</option>
+                            <option>Project manager</option>
+                        </select>
+                    </td>
+                    </tr>
+                <tr>
+                    <th>Date of birth:</th>
+                    <td><input type="date"></td>
+
+                </tr>
+                <tr>
+                    <th>Favorite color:</th>
+                    <td><input type="color"></td>
+
+                </tr>
+                <tr>
+                    <th>Upload Resume:</th>
+                    <td><input type="file"></td>
+
+                </tr>
+                <tr>
+                    <th>Skills:</th>
+                    <td><input type="checkbox">HTML<input type="checkbox">JS<input type="checkbox">CSS<input type="checkbox">React</td>
+
+                </tr>
+                <tr>
+                    <th>Cover latter</th>
+                    <td><textarea rows="6" cols="40" placeholder="Write your messeg here ..."></textarea></td>
+
+                </tr>
+                <tr>
+
+                    <th colspan="2"><button type="submit">submit></button>       <button type="reset">reset></button></th>
+                    
+
+                </tr>
+            </table>
+
+        </form>
+        </center>
+    </body>
+
+</html>
